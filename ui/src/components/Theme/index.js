@@ -31,6 +31,9 @@ const theme = createMuiTheme({
       containedSecondary: {
         color: "#565656",
         background: "#EEEEEE",
+        "&:hover": {
+          backgroundColor: "#e6e6e6",
+        },
       },
     },
     MuiCard: {

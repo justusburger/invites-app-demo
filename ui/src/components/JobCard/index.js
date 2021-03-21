@@ -3,37 +3,28 @@ import { DetailsRegion } from "./style";
 import LeadTitleBar from "../LeadTitleBar";
 import LeadDetailsBar from "../LeadDetailsBar";
 import LeadDescriptionBar from "../LeadDescriptionBar";
-import { Card } from "@material-ui/core";
+import Card from "@material-ui/core/Card";
+import PropTypes from "prop-types";
 
-function JobCard({ lead }) {
-  const {
-    contactName,
-    date,
-    id,
-    suburb,
-    type,
-    description,
-    price,
-    contactPhone,
-    contactEmail,
-  } = lead;
+function JobCard({ job }) {
+  const { contactId, created, id, suburbId, categoryId, description, price } = job;
   return (
     <Card>
       <DetailsRegion>
-        <LeadTitleBar contactName={contactName} date={date} />
+        <LeadTitleBar contactId={contactId} date={created} showLastname />
       </DetailsRegion>
       <DetailsRegion>
-        <LeadDetailsBar id={id} suburb={suburb} type={type} price={price} />
+        <LeadDetailsBar id={id} suburbId={suburbId} categoryId={categoryId} price={price} />
       </DetailsRegion>
       <DetailsRegion>
-        <LeadDescriptionBar
-          description={description}
-          contactPhone={contactPhone}
-          contactEmail={contactEmail}
-        />
+        <LeadDescriptionBar description={description} contactId={contactId} />
       </DetailsRegion>
     </Card>
   );
 }
+
+JobCard.propTypes = {
+  job: PropTypes.any,
+};
 
 export default React.memo(JobCard);

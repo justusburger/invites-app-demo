@@ -1,22 +1,15 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Redirect,
-} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
 import CssBaseline from "@material-ui/core/CssBaseline";
-import { QueryClient, QueryClientProvider } from "react-query";
 import NewLeads from "./containers/NewLeads";
 import AcceptedLeads from "./containers/AcceptedLeads";
 import { GlobalStyles } from "./components/GlobalStyles";
 import Theme from "./components/Theme";
-
-const queryClient = new QueryClient();
+import QueryClientProvider from "./components/QueryClientProvider";
 
 function App() {
   return (
-    <QueryClientProvider client={queryClient}>
+    <QueryClientProvider>
       <Theme>
         <Router>
           <Switch>

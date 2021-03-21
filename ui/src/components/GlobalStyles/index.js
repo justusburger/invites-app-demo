@@ -13,8 +13,4 @@ export const GlobalStyles = createGlobalStyle`
     font-size: 15px;
     font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
   }
-
-
-  /* $primary: #ff7b11; */
-
 `;
