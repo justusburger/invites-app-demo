@@ -4,17 +4,39 @@ This application is meant to demonstrate a react SPA interacting with an express
 The "Invited" tab shows job invitation cards that allows the user to click Accept or Decline. Accepting a job will make it appear in the "Accepted" tab. Declining a job will remove it from the list.
 
 # Video walkthrough
-![Video 1](./docs/1.mp4)
-![Video 2](./docs/2.mp4)
-![Video 3](./docs/3.mp4)
-![Video 4](./docs/4.mp4)
-![Video 5](./docs/5.mp4)
-![Video 6](./docs/6.mp4)
-![Video 7](./docs/7.mp4)
-![Video 8](./docs/8.mp4)
-![Video 9](./docs/9.mp4)
-![Video 10](./docs/10.mp4)
-![Video 11](./docs/11.mp4)
+### Part 1
+[![Part 1](https://img.youtube.com/vi/o2ZWXkYoY6o/0.jpg)](https://www.youtube.com/watch?v=o2ZWXkYoY6o)
+
+### Part 2
+[![Part 2](https://img.youtube.com/vi/vAclv0fB6oI/0.jpg)](https://www.youtube.com/watch?v=vAclv0fB6oI)
+
+### Part 3
+[![Part 3](https://img.youtube.com/vi/kMUG454DCbc/0.jpg)](https://www.youtube.com/watch?v=kMUG454DCbc)
+
+### Part 4
+[![Part 4](https://img.youtube.com/vi/3tzPFjWVUak/0.jpg)](https://www.youtube.com/watch?v=3tzPFjWVUak)
+
+### Part 5
+[![Part 5](https://img.youtube.com/vi/Q9VqiaRTDr4/0.jpg)](https://www.youtube.com/watch?v=Q9VqiaRTDr4)
+
+### Part 6
+[![Part 6](https://img.youtube.com/vi/5VNscFN11FY/0.jpg)](https://www.youtube.com/watch?v=5VNscFN11FY)
+
+### Part 7
+[![Part 7](https://img.youtube.com/vi/64ckr2QdIu4/0.jpg)](https://www.youtube.com/watch?v=64ckr2QdIu4)
+
+### Part 8
+[![Part 8](https://img.youtube.com/vi/uPyBwgPRWYg/0.jpg)](https://www.youtube.com/watch?v=uPyBwgPRWYg)
+
+### Part 9
+[![Part 9](https://img.youtube.com/vi/iJUPx0MJBC0/0.jpg)](https://www.youtube.com/watch?v=iJUPx0MJBC0)
+
+### Part 10
+[![Part 10](https://img.youtube.com/vi/8_llefYIuV8/0.jpg)](https://www.youtube.com/watch?v=8_llefYIuV8)
+
+### Part 11
+[![Part 11](https://img.youtube.com/vi/Tdt3qlKQHe0/0.jpg)](https://www.youtube.com/watch?v=Tdt3qlKQHe0)
+
 
 # UI
 The UI is built using create-react-app and includes these notable features:
