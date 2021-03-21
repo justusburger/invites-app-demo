@@ -3,6 +3,19 @@ This application is meant to demonstrate a react SPA interacting with an express
 
 The "Invited" tab shows job invitation cards that allows the user to click Accept or Decline. Accepting a job will make it appear in the "Accepted" tab. Declining a job will remove it from the list.
 
+# Video walkthrough
+![Video 1](./docs/1.mp4)
+![Video 2](./docs/2.mp4)
+![Video 3](./docs/3.mp4)
+![Video 4](./docs/4.mp4)
+![Video 5](./docs/5.mp4)
+![Video 6](./docs/6.mp4)
+![Video 7](./docs/7.mp4)
+![Video 8](./docs/8.mp4)
+![Video 9](./docs/9.mp4)
+![Video 10](./docs/10.mp4)
+![Video 11](./docs/11.mp4)
+
 # UI
 The UI is built using create-react-app and includes these notable features:
 
