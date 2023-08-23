@@ -14,5 +14,5 @@ From the root of this project, run `docker-compose up`. This will probably take 
 ## 4. Browse to [http://localhost:3000](http://localhost:3000)
 You should then be able to visit http://localhost:3000 and see a list of job invites.
 
-# Setup development environment
-Soon, I promise.
+# Video walk through
+https://www.youtube.com/playlist?list=PLjkRnDmaPPw3whxs-kBWR0muaRXX-rzv_
